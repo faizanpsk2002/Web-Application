@@ -17,7 +17,7 @@ function App() {
     <Router>
       <Header /> {/* Header will always be visible */}
 
-      <main className="min-h-[calc(100vh-120px)]"> {/* Push footer to bottom */}
+      <main className="min-h-[calc(100vh-120px)] pt-5"> {/* Push footer to bottom */}
         <Routes>
           <Route path="/" element={<Navigate to="/login" />} />
           <Route path="/register" element={<Register />} />
